@@ -9,7 +9,6 @@ import (
 )
 
 func main() {
-
 	m := make(map[string]string)
 
 	scanner := bufio.NewScanner(os.Stdin)

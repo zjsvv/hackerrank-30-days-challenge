@@ -18,8 +18,7 @@ public class Solution {
     for (int i = 0; i < n; i++) {
       String line = stringScanner.nextLine();
 
-      String[] res = new String[] {};
-      res = line.split(" ");
+      String[] res = line.split(" ");
 
       m.put(res[0], res[1]);
     }
